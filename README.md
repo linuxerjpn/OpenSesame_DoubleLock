@@ -29,7 +29,7 @@ AWS IoT エンタープライズボタンを使ってスマートロック「SES
   - `LONG` : 長押し時の動作 (`lock` / `unlock` / `sync` / 空)
   - `SYNC` : `sync` 固定値をセットしておく。(IoTボタン以外からlambdaを起動した時に利用可能な引数。CloudWatchによる定期同期に利用)
 - 保存
-- トリガーを追加：(参考) AWS Lambdaの初回起動が遅い問題を解決する魔法の設定
+- トリガーを追加：(参考) [AWS Lambdaの初回起動が遅い問題を解決する魔法の設定](https://qiita.com/yukitter/items/af77beb4c77dae1d7a1f)
   - CloudWatch Events
   - 新規ルールの作成
   - ルール名＝ `every_5min`
